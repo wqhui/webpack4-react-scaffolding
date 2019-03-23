@@ -1,11 +1,11 @@
 
-//const autoprefixer = require('autoprefixer');
+// const autoprefixer = require('autoprefixer');
 module.exports = {
-    plugins: {
-        'autoprefixer': {
-            browsers: ['iOS >= 7', 'Android >= 4.1',
-                'last 10 Chrome versions', 'last 10 Firefox versions',
-                'Safari >= 6', 'ie > 8']
-        },
+  plugins: {
+    'autoprefixer': {
+      browsers: ['iOS >= 7', 'Android >= 4.1',
+        'last 10 Chrome versions', 'last 10 Firefox versions',
+        'Safari >= 6', 'ie > 8']
     }
+  }
 }
